@@ -1,0 +1,129 @@
+body {
+    background-color: darkgrey;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 700px;
+}
+
+.pfPage {
+    position: relative;
+    margin-top: 80px;
+    text-align: justify;
+    width: 700px;
+}
+
+
+/* *************NAVBAR*********** */
+
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: darkgrey;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav li {
+    text-align: center;
+    margin-left: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(150, 150, 150);
+}
+
+
+/* ************Home*********** */
+
+#home {
+    text-align: center;
+    height: 100vh;
+}
+
+
+/* **********Portfolio******** */
+
+.PfImage {
+    margin: 0px auto;
+}
+
+.pfDiv {
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 9px;
+    width: 335px;
+}
+
+.invisible {
+    visibility: hidden;
+    font-style: italic;
+    font-size: 12px;
+    text-align: right;
+}
+
+.pfLnk:hover {
+    box-shadow: 2px 2px 2px;
+}
+
+.pfLnk:hover .invisible {
+    visibility: visible;
+}
+
+
+/* **********Contact********** */
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#coordonnee {
+    margin-top: 100px;
+    margin-left: 150px;
+    text-align: left;
+}
+
+label {
+    width: 90px;
+    text-align: center;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+input, textarea {
+    display: block;
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding-left: 90px;
+}
